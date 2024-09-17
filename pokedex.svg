@@ -2,36 +2,20 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-                h1 {
-                    color: white;
+            h1 {
+                color: red;
+                animation: mymove 2s infinite;
+            }
+            @keyframes mymove {
+                from {
+                    color: red;
                 }
-                body {
-                    margin: 0;
-                    padding: 0;
-                    background-blend-mode: overlay;
+                to {
+                    color: yellow;
                 }
-                #root {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    height: 100vh;
-                }
-                .pokedex {
-                    background-color: #e61515;
-                    width: 848px;
-                    margin: 0 auto;
-                    padding: 1em;
-                    border-radius: 15px;
-                    border: double black 10px;
-                    display: flex;
-                }
+            }
             </style>
-            <div id="root">
-                <div class="pokedex">
-                  
-              </div>
-            </div>    
+            <h1>HELLO WORLD!</h1>
+        </div>
     </foreignObject>
 </svg>
-
-
