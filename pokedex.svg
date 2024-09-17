@@ -612,29 +612,6 @@
                               </div>
                           </div>
                         </div>
-                        <div class="panel-row panel-evo">
-                            <div>
-                                <div class="flex-center">
-                                    <div class="evo-num">Most</div>
-                                </div>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="pokemon" class="pokemon-sprite pokemon-sprite-small" />
-                                <div class="screen evo-name">draw</div>
-                            </div>
-                            <div>
-                                <div class="flex-center">
-                                    <div class="evo-num">Proud</div>
-                                </div>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png" alt="pokemon" class="pokemon-sprite pokemon-sprite-small" />
-                                <div class="screen evo-name">logo generation</div>
-                            </div>
-                            <div>
-                                <div class="flex-center">
-                                    <div class="evo-num">of</div>
-                                </div>
-                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" alt="pokemon" class="pokemon-sprite pokemon-sprite-small" />
-                                <div class="screen evo-name">flair one chalenge</div>
-                            </div>
-                        </div>
 
                     </div>
                 </div>
