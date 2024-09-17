@@ -554,7 +554,33 @@
                               </div>
                           </div>
                         </div>
-
+                        
+                        <div class="other-project">
+                          <div class="evo-num">Other Projects</div>
+                        </div>
+                        <div class="panel-row blue-buttons">
+                            <button class="blue-button" />
+                            <button class="blue-button" />
+                            <button class="blue-button" />
+                            <button class="blue-button" />
+                            <button class="blue-button" />
+                            <button class="blue-button" />
+                            <button class="blue-button" />
+                            <button class="blue-button" />
+                            <button class="blue-button" />
+                            <button class="blue-button" />
+                        </div>
+                        <div class="move-list">
+                          <div class="move-body move-screen screen">
+                              <div class="move-left">
+                                  <div class="move-name">Publications</div>
+                                  <div class="move-stat">IGARSS.............................2024</div>
+                                  <div class="move-stat">ICASSP.............................2024</div>
+                                  <div class="move-stat">Journal of Imaging.................2022</div>
+                              </div>
+                          </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
