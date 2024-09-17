@@ -612,43 +612,30 @@
                               </div>
                           </div>
                         </div>
+                        <div class="panel-row panel-evo">
+                            <div>
+                                <div class="flex-center">
+                                    <div class="evo-num">Most</div>
+                                </div>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="pokemon" class="pokemon-sprite pokemon-sprite-small" />
+                                <div class="screen evo-name">draw</div>
+                            </div>
+                            <div>
+                                <div class="flex-center">
+                                    <div class="evo-num">Proud</div>
+                                </div>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png" alt="pokemon" class="pokemon-sprite pokemon-sprite-small" />
+                                <div class="screen evo-name">logo generation</div>
+                            </div>
+                            <div>
+                                <div class="flex-center">
+                                    <div class="evo-num">of</div>
+                                </div>
+                                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" alt="pokemon" class="pokemon-sprite pokemon-sprite-small" />
+                                <div class="screen evo-name">flair one chalenge</div>
+                            </div>
+                        </div>
 
-                        <div class="other-project">
-                          <div class="evo-num">Other Projects</div>
-                        </div>
-                        <div class="panel-row blue-buttons">
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                        </div>
-                        <div class="move-list">
-                          <div class="move-body move-screen screen">
-                              <div class="move-left">
-                                  <div class="move-name">Publications</div>
-                                  <div class="move-stat">IGARSS.............................2024</div>
-                                  <div class="move-stat">ICASSP.............................2024</div>
-                                  <div class="move-stat">Journal of Imaging.................2022</div>
-                              </div>
-                          </div>
-                        </div>
-                        <div class="panel-row controls">
-                          <button class="button" />
-                          <button class="no-button">
-                              <input
-                                  class="screen num-input"
-                                  disabled
-                              />
-                              <div class="submit" />
-                          </button>
-                          <button class="button" />
-                        </div>
                     </div>
                 </div>
             </div>
