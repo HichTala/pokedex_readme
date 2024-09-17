@@ -2,10 +2,93 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
+                h1 {
+                    color: white;
+                }
+                body {
+                    margin: 0;
+                    padding: 0;
+                    background-blend-mode: overlay;
+                }
+                #root {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                }
+                .pokedex {
+                    background-color: #e61515;
+                    width: 848px;
+                    margin: 0 auto;
+                    padding: 1em;
+                    border-radius: 15px;
+                    border: double black 10px;
+                    display: flex;
+                }
+                .panel {
+                    width: 359px;
+                    padding: 10px;
+                    border: inset #b31818 3px;
+                    border-radius: 3px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .right-panel {
+                    padding: 0;
+                    width: 379px;
+                }
+                .panel-row {
+                    display: flex;
+                    border-bottom: groove #757575 3px;
+                    justify-content: space-evenly;
+                }
+                .panel-row:last-child {
+                    border-top: groove #757575 3px;
+                    border-bottom: none;
+                }
+                .divider {
+                    display: flex;
+                    flex-direction: column;
+                    width: 30px;
+                    margin: 0 20px;
+                    align-items: center;
+                    border: inset #460f0f 4px;
+                    border-radius: 4px;
+                    background: #460f0f;
+                }
+                .divider > * {
+                    border-radius: 4px;
+                    border: solid #2d0d0d 2px;
+                }
             </style>
             <div id="root">
                 <div class="pokedex">
-                </div>  
+                    <div class="panel left-panel">
+                        <div class="pokemon-name screen">
+                            HichTala
+                            <span class="name-no">no. 1</span>
+                        </div>
+                        <div>
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="pokemon" class="pokemon-sprite" />
+                        </div>
+                        <div class="pokemon-description screen">
+                            <h4>Hi there 👋</h4>
+                            I'm Hicham, a passionate PhD student with a focus on AI and vision, pursuing groundbreaking research and pushing the boundaries of knowledge.
+                        </div>
+                    </div>
+                    <div class="divider">
+                        <button class="hinge"></button>
+                        <button class="gap"></button>
+                        <button class="hinge"></button>
+                        <button class="gap"></button>
+                        <button class="hinge"></button>
+                        <button class="gap"></button>
+                    </div>
+                    <div class="panel right-panel">
+                        <!-- Other content remains unchanged -->
+                    </div>
+                </div>
             </div>
+        </div>    
     </foreignObject>
 </svg>
