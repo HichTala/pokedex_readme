@@ -522,7 +522,38 @@
                         <button class="hinge"></button>
                         <button class="gap"></button>
                     </div>
-                    <div class="panel right-panel">
+                    <div class="panel right-panel">                        
+                        <div class="panel-row">
+                          <div class="screen stats">
+                            <div>
+                              <div class="stat-line">
+                                  Python................71
+                              </div>
+                              <div class="stat-line">
+                                  C++...................49
+                              </div>
+                              <div class="stat-line">
+                                  R.....................66
+                              </div>
+                              <div class="stat-line">
+                                  Java..................53
+                              </div>
+                              <div class="stat-line">
+                                  HTML/CSS..............41
+                              </div>
+                              <div class="stat-line">
+                                  TypeScript/JavaScript.31
+                              </div>
+                            </div>
+                          </div>
+                          <div class="type-list">
+                              <div class="panel-header">Types</div>
+                              <div class="type-box">
+                                  <div class="type fairy">Human</div>
+                                  <div class="type ice">phd student</div>
+                              </div>
+                          </div>
+                        </div>
 
                     </div>
                 </div>
