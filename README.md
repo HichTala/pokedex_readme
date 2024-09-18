@@ -1,3 +1,11 @@
+<div style="position: relative; display: inline-block;">
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Image" style="width:100%;">
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px;">
+        Your Text Here
+    </div>
+</div>
+
+
 <div align="center">
 	<br>
 <svg fill="none" viewBox="0 0 1000 800" width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
@@ -502,87 +510,121 @@
                 }
             </style>
             <div id="root">
-                <div class="pokedex">
-                    <div class="panel left-panel">
-                        <div class="pokemon-name screen">
-                            HichTala
-                            <span class="name-no">no. 1</span>
-                        </div>
-                        <div>
-                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="pokemon" class="pokemon-sprite" />
-                        </div>
-                        <div class="pokemon-description screen">
-                            <h4>Hi there 👋</h4>
-                            I'm Hicham, a passionate PhD student with a focus on AI and vision, pursuing groundbreaking research and pushing the boundaries of knowledge.
-                        </div>
-                    </div>
-                    <div class="divider">
-                        <button class="hinge"></button>
-                        <button class="gap"></button>
-                        <button class="hinge"></button>
-                        <button class="gap"></button>
-                        <button class="hinge"></button>
-                        <button class="gap"></button>
-                    </div>
-                    <div class="panel right-panel">                        
-                        <div class="panel-row">
-                          <div class="screen stats">
-                            <div>
-                              <div class="stat-line">
-                                  Python................71
-                              </div>
-                              <div class="stat-line">
-                                  C++...................49
-                              </div>
-                              <div class="stat-line">
-                                  R.....................66
-                              </div>
-                              <div class="stat-line">
-                                  Java..................53
-                              </div>
-                              <div class="stat-line">
-                                  HTML/CSS..............41
-                              </div>
-                              <div class="stat-line">
-                                  TypeScript/JavaScript.31
-                              </div>
-                            </div>
-                          </div>
-                          <div class="type-list">
-                              <div class="panel-header">Types</div>
-                              <div class="type-box">
-                                  <div class="type fairy">Human</div>
-                                  <div class="type ice">phd student</div>
-                              </div>
-                          </div>
-                        </div>
-                        <div class="other-project">
-                          <div class="evo-num">Other Projects</div>
-                        </div>
-                        <div class="panel-row blue-buttons">
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                            <button class="blue-button" />
-                        </div>
-                        <div class="move-list">
-                          <div class="move-body move-screen screen">
-                              <div class="move-left">
-                                  <div class="move-name">Publications</div>
-                                  <div class="move-stat">IGARSS.............................2024</div>
-                                  <div class="move-stat">ICASSP.............................2024</div>
-                                  <div class="move-stat">Journal of Imaging.................2022</div>
-                              </div>
-                          </div>
-                        </div>
-                    </div>
+        <div class="pokedex">
+          <div class="panel left-panel">
+            <div class="pokemon-name screen">
+              HichTala
+              <span class="name-no">no. 1</span>
+            </div>
+            <div>
+              <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="pokemon" class="pokemon-sprite" />
+            </div>
+            <div class="pokemon-description screen">
+              <h4>Hi there 👋</h4>
+              I'm Hicham a passionate PhD student with a focus on AI and vision, pursuing groundbreaking research and pushing the boundaries of knowledge.
+            </div>
+          </div>
+          <div class="divider">
+            <button class="hinge" />
+            <button class="gap" />
+            <button class="hinge" />
+            <button class="gap" />
+            <button class="hinge" />
+            <button class="gap" />
+          </div>
+          <div class="panel right-panel">
+            <div class="panel-row">
+              <div class="screen stats">
+                <div>
+                  <div class="stat-line">
+                      Python................71
+                  </div>
+                  <div class="stat-line">
+                      C++...................49
+                  </div>
+                  <div class="stat-line">
+                      R.....................66
+                  </div>
+                  <div class="stat-line">
+                      Java..................53
+                  </div>
+                  <div class="stat-line">
+                      HTML/CSS..............41
+                  </div>
+                  <div class="stat-line">
+                      TypeScript/JavaScript.31
+                  </div>
                 </div>
+              </div>
+              <div class="type-list">
+                  <div class="panel-header">Types</div>
+                  <div class="type-box">
+                      <div class="type fairy">Human</div>
+                      <div class="type ice">phd student</div>
+                  </div>
+              </div>
+            </div>
+            <div class="panel-row panel-evo">
+                <div>
+                    <div class="flex-center">
+                        <div class="evo-num">Most</div>
+                    </div>
+                    <img src={props.src} alt="pokemon" class="pokemon-sprite pokemon-sprite-small" />
+                    <div class="screen evo-name">draw</div>
+                </div>
+                <div>
+                    <div class="flex-center">
+                        <div class="evo-num">Proud</div>
+                    </div>
+                    <img src={props.src} alt="pokemon" class="pokemon-sprite pokemon-sprite-small" />
+                    <div class="screen evo-name">logo generation</div>
+                </div>
+                <div>
+                    <div class="flex-center">
+                        <div class="evo-num">of</div>
+                    </div>
+                    <img src={props.src} alt="pokemon" class="pokemon-sprite pokemon-sprite-small" />
+                    <div class="screen evo-name">flair1 chalenge</div>
+                </div>
+            </div>
+            <div class="other-project">
+              <div class="evo-num">Other Projects</div>
+            </div>
+            <div class="panel-row blue-buttons">
+                <button class="blue-button" />
+                <button class="blue-button" />
+                <button class="blue-button" />
+                <button class="blue-button" />
+                <button class="blue-button" />
+                <button class="blue-button" />
+                <button class="blue-button" />
+                <button class="blue-button" />
+                <button class="blue-button" />
+                <button class="blue-button" />
+            </div>
+            <div class="move-list">
+              <div class="move-body move-screen screen">
+                  <div class="move-left">
+                      <div class="move-name">Publications</div>
+                      <div class="move-stat">IGARSS.............................2024</div>
+                      <div class="move-stat">ICASSP.............................2024</div>
+                      <div class="move-stat">Journal of Imaging.................2022</div>
+                  </div>
+              </div>
+            </div>
+            <div class="panel-row controls">
+              <button class="button" />
+              <button class="no-button">
+                  <input
+                      class="screen num-input"
+                      disabled
+                  />
+                  <div class="submit" />
+              </button>
+              <button class="button" />
+            </div>
+          </div>
+        </div>
             </div>
         </div>
     </foreignObject>
